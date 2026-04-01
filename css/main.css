@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #aaaaaa;
+  color: #535353;
+}
+
+body {
+  background-color: #aaaaaa;
+  color: #535353;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #535353;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer p {
+  font-size: 12px;
+}
+
+.album {
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .album {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+.album img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.artista {
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .artista {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+.artista img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.comentarios {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #535353;
+}
+.comentarios textarea {
+  width: 80%;
+  height: 100px;
+  padding: 15px;
+  border: 2px solid #535353;
+  border-radius: 20px;
+}
+.comentarios button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #7c7c7c;
+  color: #535353;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comentarios-usuarios {
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  background: #fafafa;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .comentarios-usuarios {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+
+.info-album {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.info-album img {
+  width: 30%;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .info-album {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .info-album img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

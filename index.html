@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón</title>
+    <link rel="stylesheet" href="css/main.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+     
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="pages/albumes.html">Albumes</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="pages/artistas.html">Artistas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="pages/ustedes.html">Ustedes</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+    <!-- titulo y sub titulo -->
+    <h1>El Rincón</h1>
+    <h2>Las Recomendaciones de esta semana son:</h2>
+</header>
+    
+<main>
+ <!--albumes recomendados de la semana-->
+  <section>
+      <article class="album">
+      <a href="pages/albumes/dela.html"><img src="img/dela.webp" alt="Album de Delaossa"> </a>
+      <strong>La Madrugá</strong>
+      <p>Delaossa</p>
+      <p>Rap/Trap</p>
+      </article>
+
+      <article class="album">
+      <a href="pages/albumes/dano.html"><img src="img/dano.webp" alt="Album de Dano"></a>
+      <strong>El Hombre Hace Planes Dios Se Rie </strong>
+      <p>Dano</p>
+      <p>Rap/A&B/Trap</p>
+    </article>
+       <article class="album"> 
+      <a href="pages/albumes/cruz.html"><img src="img/cruz.webp" alt="Album de Cafune"></a>
+      <strong>Me Muevo Con Dios</strong>
+      <p>Cruz Cafune</p>
+      <p>Rap/Trap/Reggaeton</p>
+  </article>
+  </section>
+</main> 
+
+<div class="comentarios"> 
+<p> Te invitamos a dejar tu recomendacion para la proxima semana. </p>
+      
+ <form class="comentarios">
+ <textarea placeholder="Cuentanos que te gustaria recomendar... "></textarea>
+ <button>Publicar</button>
+</form>
+</div>
+
+<!-- Pie de pagina --> 
+<footer>
+
+  <div class="registro">
+  <h3>Registrate y dejanos tu opinión</h3>
+  <label for="email"></label>
+  <input type="email" id="email" name="email" placeholder="ejemplo@mail.com" required>
+  <label for="password"></label>
+  <input type="password" id="password" name="password" placeholder="********" required>
+
+  <button type="submit">Registrarse</button>
+      </div>
+
+</div>
+<div class="info">
+<h3>Acerca de nosotros:</h3>
+<p>El Rincón es un blog que los invita a compartir esas obras que a uno lo acompañan día a día y que así estas lleguen a oyentes nuevos.
+</p>
+</div>
+<div class="redes-sociales">
+    <h3> Redes Sociales</h3 >
+ <p>
+  <a href="https://www.instagram.com/nach.ve" target="_blank">
+<i class="bi bi-instagram"></i> Instagram
+</a>
+ </p>   
+<p>
+  <a href="https://x.com/veliznacho" target="_blank">
+ <i class="bi bi-x"></i> X
+</a>
+</p>
+<p> 
+  <a href="https://open.spotify.com/intl-es/album/3Au0IW8JlUTwsvT4Ym6yL7?si=LstodeD1QRaUoXpnEcf9bw" target="_blank">
+<i class="bi bi-spotify"></i> Spotify
+</a>
+</p>
+
+</div>
+</footer> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@use "../utilities/variables" as *;
+
+body {
+  background-color: $color-background;
+  color: $color-text;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: $color-articulo;
+  color: $color-text;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+
+  h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
