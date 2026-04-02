@@ -46,6 +46,14 @@ footer p {
   font-size: 12px;
 }
 
+h1 {
+  animation: fade-in-up 1s ease-out both;
+}
+
+h2 {
+  animation: fade-in-up 1s ease-out both;
+}
+
 .album {
   width: 30%;
   text-align: center;
@@ -157,6 +165,20 @@ footer p {
     width: 100%;
     margin-bottom: 20px;
   }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-up {
+  animation: fade-in-up 1s ease-out both;
 }
 
 /*# sourceMappingURL=main.css.map */

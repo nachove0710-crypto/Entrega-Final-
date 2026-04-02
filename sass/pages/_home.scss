@@ -2,6 +2,13 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin" as *;
 
+// Animacion para titulos 
+h1 {
+  animation: fade-in-up 1s ease-out both;
+} 
+h2 {
+  animation: fade-in-up 1s ease-out both;
+}
 // Albumes
 .album {
   @include articulo();
